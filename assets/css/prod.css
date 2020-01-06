@@ -1,0 +1,396 @@
+/* GLOBAL RESET START */
+    body, html  { height: 100%; }
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;   
+    }
+    body { line-height: 1; font-family: 'Open Sans', sans-serif;
+    }
+    ul { list-style: none; }
+    blockquote, q { quotes: none; }
+    blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+    :focus { outline: 0; }/* remember to define focus styles! */
+    del { text-decoration: line-through; }
+    table { border-collapse: collapse; border-spacing: 0; }/* tables still need 'cellspacing="0"' in the markup */
+/* GLOBAL RESET END */
+.wrapper{
+    width: 1370px;
+    background: white;
+
+}
+.jkategori{
+    font-size: 20pt;
+
+}
+.container-1{
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+  margin-top: 22px;
+  margin-left: 17px;
+}
+.pos{
+    width: 80%;
+    float: left;
+
+}
+.ljudul{
+  width: 75%;
+    float: left;
+    font-size: 30pt;
+    margin: 10px;
+    color: black;
+
+}
+.pnama{
+width: 90%;
+    margin: 10px;
+    line-height: 2em;
+    text-align: justify;
+    font-size: 10pt;
+color: white;
+
+
+}
+.lkonten{
+    width: 75%;
+    margin: 10px;
+    line-height: 2em;
+    text-align: justify;
+    font-size: 10pt;
+}
+.pos1{
+    width: 15%;
+    background: #292c2f;
+    float: left;
+    margin-top: 10px;
+    padding: 20px;
+
+}
+.gmb{
+  width: 100%;
+  height: 220px;  
+}
+.pgambar{
+    width: 20%;
+    margin: 10px;
+    height: 220px;
+    float: left;
+
+}
+.container-1 input#search{
+  width: 300px;
+  height: 50px;
+  background: white;
+  border: solid #514d46;
+  font-size: 10pt;
+  float: left;
+  color: #63717f;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.container-1 .icon{
+  position: absolute;
+  top: 50%;
+  margin-left: 17px;
+  margin-top: 17px;
+  z-index: 1;
+  color: #4f5b66;
+}
+.all{
+    margin-right: 25px;
+    margin-left: 17px;
+    margin-top: 104px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #2b2a28;
+    padding: 15px 10px;
+}
+.snt{
+    margin-right: 25px;
+    margin-left: 17px;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #2b2a28;
+    padding: 15px 10px;
+}
+.ftg{
+    margin-right: 25px;
+    margin-left: 17px;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #2b2a28;
+    padding: 15px 10px;
+}
+.active{
+    background-color: #ddd;
+    border-radius: 5px;
+}
+.sr{
+    width: 50%;
+    height: 45px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.sr1{
+    width: 27%;
+    height: 50px;
+    background-image: url(../image/search.png);
+    margin-left: 10px;
+}
+
+.konten{
+    border: 7px solid;
+    width: 99%;
+    float: left;
+    background: white;
+}
+.kontak{
+    width: 80%;
+    height: 95px;
+    margin-left: 30px;
+    float: left;
+    padding: 25px;
+    line-height: 1.3em;
+    border
+}
+.h3{
+    font-size: 16px;
+    color: black;
+    margin-top: 10px;
+    padding: 121px;
+
+}
+.title{
+    float: left;
+    width: 30%;
+    margin: 40px;
+}
+.h4{
+    font-size: 12px;
+    color: black;
+    width: 757px;
+}
+.hd1{
+    width: 100%;
+    height: 450px;
+    background-image: url(../image/jk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-top: 0px;
+}
+.hd2{
+    width: 100%;
+    height: 500px;
+    background-image: url(../image/tr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-top: 0px;
+}
+.hd{
+    width: 100%;
+    height: 500px;
+    background-image: url(../image/do.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-top: 0px;
+}
+
+
+.even1{
+    width: 23%;
+    border: groove #c1c1c1;  
+    margin: 5px;
+    float: left;
+}
+.k1{
+    width: 90%;
+    margin: 20px;
+    float: left;
+}
+.s1{
+    width: 100px;
+    height: 39px;
+    display:inline-block;
+    margin-top: 9px;
+    background: #474040;
+    border:none;
+    color: #efe8e8;
+}
+.if{
+    width: 21.7%;
+    height: 289px;
+    background-image: url(../image/p1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 33px;
+    margin-left: 12px;
+    float: left;
+    border: 1px solid #e8dede;
+}
+.desc{
+
+}
+.gp1 {
+    width: 21.7%;
+    height: 289px;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 33px;
+    margin-left: 12px;
+    float: left;
+}
+.p1{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 2em;
+    margin-top: 292px;
+    color: #111111; 
+}
+.img{
+    width: 100%;
+    height: 100px;
+}
+.s1:hover{
+    
+    cursor: pointer;
+  
+    background:#676363;    
+}
+.profil{
+    width: 50%;
+    height: 470px;
+    float:left;
+    padding: 15px;
+}
+
+.gambarE{
+    width: 50%;
+    height: 215px;
+}
+.footer{
+    width: 100%;
+    float:left;
+    background: white;
+}
+.pencarian{
+    width: 25%;
+    height: 1000px;
+    background: #f7f2f2;
+    float: left;
+}
+      
+
+.menu{
+    width: 100%;
+    background: green;
+
+    float: left;
+}
+.menu > ul {
+    width: 100%;
+    float: left;
+    background: silver;
+}
+.menu > ul > li{
+    width: 10%;
+    margin-left: 126px;
+    float: left;
+    background: silver;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.menu > ul > li > a{
+    text-decoration: none;
+}
+.dropmenu li a {
+    color: #676767;
+    display: block;
+    font: 12px verdana, sans-serif;
+    font-weight: bold;
+    padding: 9px 20px;
+    text-decoration: none;
+    color: black;
+}
+.dropmenu li:hover {position: relative; }
+.dropmenu li:hover ul {
+    left: 0px;
+    padding: 10px;
+    top: 30px;
+    width: 160px;
+}
+.dropmenu li:hover ul li { border: none; height: 20px; }
+.dropmenu li:hover ul li a {
+    background-color: #ffffff;
+    color: #676767;
+    display: block;
+    font-size: 11px;
+    height: 18px;
+    line-height: 18px;
+    padding: 0px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 158px;
+    padding: 3px;
+}
+.dropmenu ul {
+    left: -9999px;
+    list-style-type: none;
+    position: absolute;
+    top: -9999px;
+}
+
+p{
+    line-height: 2em;
+    text-align: justify;
+    font-size: 10pt;
+    color: #efe8e8;
+}
+.kotak{
+    width: 80%;
+    height: 470px;
+    margin-left: 62px;
+    float: left;
+    padding: 25px;
+}
+.menu > ul > li:hover {
+    width: 10%;
+    margin-left: 126px;
+    float: left;
+    background: #d5cccc;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.fJudul{
+    font-size: 25px;
+    font-family:'Open Sans', sans-serif; 
+}
+#flabel{
+    line-height: 1em;
+    text-align: justify;
+    font-size: 8pt;
+}

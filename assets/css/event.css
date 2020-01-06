@@ -1,0 +1,358 @@
+/* GLOBAL RESET START */
+    body, html  { height: 100%; }
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;   
+    }
+    body { line-height: 1; font-family: 'Open Sans', sans-serif;
+    }
+    ul { list-style: none; }
+    blockquote, q { quotes: none; }
+    blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+    :focus { outline: 0; }/* remember to define focus styles! */
+    del { text-decoration: line-through; }
+    table { border-collapse: collapse; border-spacing: 0; }/* tables still need 'cellspacing="0"' in the markup */
+/* GLOBAL RESET END */
+.wrapper{
+    width: 1370px;
+    background: white;
+
+}
+.konten{
+    width: 100%;
+    float: left;
+    background: white; 
+}
+.kontak{
+    width: 80%;
+    height: 95px;
+    margin-left: 30px;
+    float: left;
+    padding: 25px;
+    line-height: 1.3em;
+    border
+}
+.hd{
+    width: 100%;
+    height: 500px;
+    background-image: url(../image/head.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-top: 0px;
+}
+.konten1{
+    width: 31.7%;
+    height: 389px;
+    background-image: url(../image/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    float: left;
+}
+.konten2{
+    width: 31.7%;
+    height: 389px;
+    background-image: url(../image/browse.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    float: left;
+}
+.konten3{
+    width: 31.7%;
+    height: 389px;
+    background-image: url(../image/findus.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    float: left;
+}
+h6{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 2em;
+    margin-top: 187px;
+    color: #efe8e8;
+}
+h5{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1em;
+    color: #efe8e8;
+}
+.k1{
+    width: 61.7%;
+    height: 383px;
+    margin: 20px;
+    float: left;
+}
+.s1{
+    width: 42.7%;
+    height: 39px;
+    display:inline-block;
+    margin-top: 9px;
+    background: #474040;
+    border:none;
+    color: #efe8e8;
+}
+.img{
+    width: 100%;
+    height: 100px;
+}
+.s1:hover{
+ 
+    cursor: pointer;
+    background: #756e6e;
+     
+}
+.profil{
+    width: 50%;
+    height: 470px;
+    float:left;
+    padding: 15px;
+}
+.gambar{
+    width: 40%;
+    height: 500px;
+    float:right;
+}
+.footer{
+    width: 100%;
+    float:left;
+    background: white;
+}
+.pencarian{
+    width: 30%;
+    height:  500px;
+    background:orange;
+    float: left;
+}
+.gambarproduk{
+    width: 21%;
+    height:  210px;
+    background:blue;
+    float: left;
+    margin:10px;
+
+}       
+
+.menu{
+    width: 100%;
+    background: green;
+
+    float: left;
+}
+.menu > ul {
+    width: 100%;
+    float: left;
+    background: silver;
+}
+.menu > ul > li{
+    width: 10%;
+    margin-left: 126px;
+    float: left;
+    background: silver;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.menu > ul > li > a{
+    text-decoration: none;
+}
+.dropmenu li a {
+    color: #676767;
+    display: block;
+    font: 12px verdana, sans-serif;
+    font-weight: bold;
+    padding: 9px 20px;
+    text-decoration: none;
+    color: black;
+}
+.dropmenu li:hover {position: relative; }
+.dropmenu li:hover ul {
+    left: 0px;
+    padding: 10px;
+    top: 30px;
+    width: 160px;
+}
+.dropmenu li:hover ul li { border: none; height: 20px; }
+.dropmenu li:hover ul li a {
+    background-color: #ffffff;
+    color: #676767;
+    display: block;
+    font-size: 11px;
+    height: 18px;
+    line-height: 18px;
+    padding: 0px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 158px;
+    padding: 3px;
+}
+.dropmenu ul {
+    left: -9999px;
+    list-style-type: none;
+    position: absolute;
+    top: -9999px;
+}
+h1{
+    font-size: 20pt;
+    font-family: 'Open Sans', sans-serif;
+}
+h2{
+    font-size: 10pt;
+    font-family: 'Open Sans', sans-serif;
+}
+p{
+    line-height: 2em;
+    text-align: justify;
+    font-size: 10pt;
+    color: #756e6e;
+}
+.kotak{
+    width: 80%;
+    height: 470px;
+    margin-left: 62px;
+    float: left;
+    padding: 25px;
+}
+.menu > ul > li:hover {
+    width: 10%;
+    margin-left: 126px;
+    float: left;
+    background: #d5cccc;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.even1{
+    width: 31.7%;
+    border: groove #c1c1c1;
+    height: 389px;
+   
+    margin: 5px;
+    float: left;
+}
+.e1{
+    width: 61.7%;
+    height: 383px;
+    margin: 20px;
+    float: left;
+}
+
+h3{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 2em;
+    margin-top: 142px;
+    color: black;
+}
+
+h4{
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 1em;
+    color: black;
+}
+
+.s2 {
+    width: 42.7%;
+    height: 39px;
+    display: inline-block;
+    margin-top: -124px;
+    background: #474040;
+    border: none;
+    color: #efe8e8;
+    
+}
+.e2{
+    width: 61.7%;
+    height: 383px;
+    margin: 20px;
+    float: left;
+}
+.even2{
+    width: 31.7%;
+    height: 389px;
+    background-image: url(../image/even2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    float: left;
+}
+.gambarE{
+    width: 100%;
+    height: 215px;
+    margin-bottom: -165px;
+}
+.even3{
+    width: 31.7%;
+    height: 389px;
+    background-image: url(../image/even2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    float: left;
+}
+.even3{
+    width: 31.7%;
+    height: 389px;
+    background-image: url(../image/even3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    float: left;
+}
+.even4{
+    width: 31.7%;
+    height: 389px;
+    background-image: url(../image/even4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    float: left;
+}
+
+.even5{   
+
+    width: 31.7%;
+    height: 389px;
+    background-image: url(../image/even5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    float: left;
+}
+.even6{   
+
+    width: 31.7%;
+    height: 389px;
+    background-image: url(../image/even6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    float: left;
+}
+.gp1{
+    width: 31.7%;
+    height: 389px;
+    background-image: url(../image/p1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    float: left;

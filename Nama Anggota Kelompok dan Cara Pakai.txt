@@ -1,0 +1,25 @@
+Nama Anggota :
+Devi Fajar Wati 3411171112
+Angga Fantiya Hermawan 3411171142
+Ahsin Fauzi 3411171157
+Panji Septiawan 3411171174
+
+Cara Pakai : 
+1. aktfikan xampp
+2. database berada dalam folder db, buat database dengan nama tubes dan import file db yang berada di dalam folder db
+3. lalu pada url ketikan localhost/tubesWeb_Kelompok4
+4. untuk akses ke admin dapat ketikan di url localhost/tubesWeb_kelompok4/admin
+untuk username dan password login admin dapat menggunakan salah satu akun di bawah ini :
+
+
+- username : devi
+password : devi
+
+- username : angga 
+password : angga
+
+- username : ahsin
+password : ahsin
+
+- username : panji
+password: panji
